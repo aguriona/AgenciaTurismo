@@ -11,14 +11,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Listado de CLientes</title>
+	<title>Listado de Clientes</title>
 
 	<link rel="stylesheet" href="css/tabla.css">
 </head>
 <body>
 	<div id="main-container">
 
-		<table>
+		<table width="600" border="2">
 			<thead>
 				<tr>
 					<th>Nombre</th>

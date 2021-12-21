@@ -51,15 +51,10 @@
                   <div class="col-md-12">
                      <div class="select_main">
                         <div class="sign">
-                           <div class="niceCountryInputSelector se_flag" style="width: 200px;" data-selectedcountry="US" data-showspecial="false" data-showflags="true" data-i18nall="All selected"
-                              data-i18nnofilter="No selection" data-i18nfilter="Filter" data-onchangecallback="onChangeCallback" />
-                           </div>
+                           
                            <span> <a href="login.jsp">Login</a> </span>   
                         </div>
-                        <ul class="top_infomation">
-                           <li><img src="images/ti_call.png" alt="#"/>Call : +1234567890</li>
-                           <li><img src="images/ti_mail.png" alt="#"/><a href="Javascript:void(0)"> demo@gmail.com</a></li>
-                        </ul>
+
                      </div>
                   </div>
                </div>
@@ -87,21 +82,11 @@
                               <li class="nav-item active">
                                  <a class="nav-link" href="index.html">Home</a>
                               </li>
+
                               <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
+                                 <a class="nav-link" href="cliente.jsp">cliente </a>
                               </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="pakages.html">Pakages </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="cliente.jsp">client </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="blog.html">Blog</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact Us</a>
-                              </li>
+
                            </ul>
                         </div>
                      </nav>
@@ -148,36 +133,7 @@
                               </div>
                            </div>
                            <!-- second slide -->
-                           <div class="carousel-item">
-                              <div class="carousel-caption relative">
-                                 <div class="row">
-                                    <div  class="col-md-10 offset-md-1">
-                                       <div class="board">
-                                          <h1>Now start <br>Your traveling </h1>
-                                          <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed towhen looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
-                                          <a class="read_more" href="Javascript:void(0)">Read More</a>
-                                          <a class="read_more" href="Javascript:void(0)">Contact us</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- third slide-->
-                           <div class="carousel-item">
-                              <div class="carousel-caption relative">
-                                 <div class="row">
-                                    <div  class="col-md-10 offset-md-1">
-                                       <div class="board">
-                                          <h1>Now start <br>Your traveling </h1>
-                                          <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed towhen looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
-                                          <a class="read_more" href="Javascript:void(0)">Read More</a>
-                                          <a class="read_more" href="Javascript:void(0)">Contact us</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
+
                         <!-- controls -->
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <i class="fa fa-angle-left" aria-hidden="true"></i>
@@ -195,353 +151,16 @@
       </div>
       <!-- end banner -->
       <!-- our_packages -->
-      <div class="our_packages">
-         <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-12">
-                  <form id="table" class="table_form">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <div class="titlepage text_align_left ">
-                              <h3>Our Packages</h3>
-                           </div>
-                        </div>
-                        <div class="col-md-4">
-                           <label>Select Your Destination :</label>
-                           <input class="contactus" placeholder="All Destinations" type="text" name="destinations"> 
-                        </div>
-                        <div class="col-md-4">
-                           <label>Select Your Destination :</label>
-                           <input type="text" class="contactus" id="my_date_picker" placeholder="mm-dd-yy" > 
-                        </div>
-                        <div class="col-md-4">
-                           <label>Select Your Destination :</label>
-                           <select id='seluser' class="contactus" >
-                              <option value='0'>$1090</option>
-                              <option value='1'>$1100</option>
-                              <option value='2'>$1160</option>
-                              <option value='3'>$1190</option>
-                           </select>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Search</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-               <div class="col-md-12">
-                  <div class="filter_main">
-                     <a class="read_more" href="javascript:void(0)"> <img src="images/filter.png" alt="#"/> More Filters </a>
-                  </div>
-               </div>
-               <div class="col-md-8 offset-md-2">
-                  <div class="typologies">
-                     <div class="row">
-                        <div class="col-md-3">
-                           <div class="typolo">
-                              <span>typologies :</span>
-                              <form>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio" checked> <span class="label-text">Relax </span>
-                                    </label>
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio"> <span class="label-text">Cultural </span>
-                                    </label>
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio"> <span class="label-text">Sport </span>
-                                    </label>
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio"> <span class="label-text">History </span>
-                                    </label>
-                                 </div>
-                              </form>
-                           </div>
-                        </div>
-                        <div class="col-md-3">
-                           <div class="typolo">
-                              <span>Durations :
-                              </span>
-                              <form>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio" checked> <span class="label-text"> 2 - 4 Days </span>
-                                    </label>
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio"> <span class="label-text"> 2 - 3 Days </span>
-                                    </label>
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                       <input type="radio" name="radio"> <span class="label-text"> 2 - 5 Days </span>
-                                       </label> 
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                       <input type="radio" name="radio"> <span class="label-text"> 2 - 6 Days </span>
-                                       </label>
-                                 </div>
-                              </form>
-                           </div>
-                        </div>
-                        <div class="col-md-3">
-                           <div class="typolo">
-                              <span>Difficulty :
-                              </span>
-                              <form>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio" checked> <span class="label-text">High  </span>
-                                    </label>
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio"> <span class="label-text">Low  </span>
-                                    </label>
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio"> <span class="label-text">Medium </span>
-                                    </label>
-                                 </div>
-                              </form>
-                           </div>
-                        </div>
-                        <div class="col-md-3">
-                           <div class="typolo">
-                              <span>Min Age :
-                              </span>
-                              <form>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio" checked> <span class="label-text"> 10 Years  </span>
-                                    </label>
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio"> <span class="label-text"> 25 Years  </span>
-                                    </label>
-                                 </div>
-                                 <div class="form-check">
-                                    <label class="marg_bottom0">
-                                    <input type="radio" name="radio"> <span class="label-text"> 40 Years </span>
-                                    </label>
-                                 </div>
-                              </form>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+ 
       <!-- end our_packages -->
       <!-- packages -->
-      <div class="packages">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center ">
-                     <h2>World Place Packages</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class=" col-md-6">
-                  <div id="ho_img" class="packages_box" data-aos="fade-right" >
-                     <figure><img src="images/packag1.jpg" alt="#"/></figure>
-                     <div class="tuscany">
-                        <div class="tusc text_align_left">
-                           <div class="italy">
-                              <h3>Tuscany</h3>
-                              <span><img src="images/loca.png" alt="#"/> Italy</span>
-                           </div>
-                           <div class="italy_right">
-                              <h3>Price</h3>
-                              <span>$1000.0</span>
-                           </div>
-                        </div>
-                        <p>Content here, content here', making it look like readable English. Many desktop publishing packagesContent here, content here', making it look like readable English. Many desktop publishing packages and web page editors now us</p>
-                        <div class="tusc">
-                           <a class="read_more" href="Javascript:void(0)">Read More</a>
-                           <a class="read_more" href="Javascript:void(0)">Book Now</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class=" col-md-6">
-                  <div id="ho_img" class="packages_box" data-aos="fade-left">
-                     <figure><img src="images/packag2.jpg" alt="#"/></figure>
-                     <div class="tuscany">
-                        <div class="tusc text_align_left">
-                           <div class="italy">
-                              <h3>Pais</h3>
-                              <span><img src="images/loca.png" alt="#"/> Italy</span>
-                           </div>
-                           <div class="italy_right">
-                              <h3>Price</h3>
-                              <span>$1000.0</span>
-                           </div>
-                        </div>
-                        <p>Content here, content here', making it look like readable English. Many desktop publishing packagesContent here, content here', making it look like readable English. Many desktop publishing packages and web page editors now us</p>
-                        <div class="tusc">
-                           <a class="read_more" href="Javascript:void(0)">Read More</a>
-                           <a class="read_more" href="Javascript:void(0)">Book Now</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class=" col-md-6">
-                  <div id="ho_img" class="packages_box" data-aos="fade-right" >
-                     <figure><img src="images/packag3.jpg" alt="#"/></figure>
-                     <div class="tuscany">
-                        <div class="tusc text_align_left">
-                           <div class="italy">
-                              <h3>San Francisco</h3>
-                              <span><img src="images/loca.png" alt="#"/> United States
-                              </span>
-                           </div>
-                           <div class="italy_right">
-                              <h3>Price</h3>
-                              <span>$1000.0</span>
-                           </div>
-                        </div>
-                        <p>Content here, content here', making it look like readable English. Many desktop publishing packagesContent here, content here', making it look like readable English. Many desktop publishing packages and web page editors now us</p>
-                        <div class="tusc">
-                           <a class="read_more" href="Javascript:void(0)">Read More</a>
-                           <a class="read_more" href="Javascript:void(0)">Book Now</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class=" col-md-6">
-                  <div id="ho_img" class="packages_box" data-aos="fade-left">
-                     <figure><img src="images/packag4.jpg" alt="#"/></figure>
-                     <div class="tuscany">
-                        <div class="tusc text_align_left">
-                           <div class="italy">
-                              <h3>Phuket</h3>
-                              <span><img src="images/loca.png" alt="#"/> Thailandia</span>
-                           </div>
-                           <div class="italy_right">
-                              <h3>Price</h3>
-                              <span>$1000.0</span>
-                           </div>
-                        </div>
-                        <p>Content here, content here', making it look like readable English. Many desktop publishing packagesContent here, content here', making it look like readable English. Many desktop publishing packages and web page editors now us</p>
-                        <div class="tusc">
-                           <a class="read_more" href="Javascript:void(0)">Read More</a>
-                           <a class="read_more" href="Javascript:void(0)">Book Now</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-12">
-                  <a class="read_more" href="Javascript:void(0)">See More</a>
-               </div>
-            </div>
-         </div>
-      </div>
+
       <!-- end packages -->
       <!-- about -->
-      <div class="about">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>About Our Company</h2>
-                  </div>
-               </div>
-               <div class="col-md-10 offset-md-1">
-                  <div class="about_text text_align_center">
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentiallyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                     </p>
-                     <a class="read_more" href="about.html">Read More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+
       <!-- end about -->
       <!-- customers -->
-      <div class="customers">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <div class="titlepage text_align_center">
-                     <h2>Customers Says </h2>
-                  </div>
-               </div>
-            </div>
-            <!-- start slider section -->
-            <div class="row">
-               <div class="col-md-12">
-                  <div id="myCarousel" class="carousel slide customers_banne" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="test_box text_align_center">
-                                    <p>text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typetext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type</p>
-                                    <i><img src="images/test2.png" alt="#"/></i>
-                                    <h4>Fitter Found</h4>
-                                    <span>Industry's standard </span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="test_box text_align_center">
-                                    <p>text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typetext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type</p>
-                                    <i><img src="images/test2.png" alt="#"/></i>
-                                    <h4>Fitter Found</h4>
-                                    <span>Industry's standard </span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="test_box text_align_center">
-                                    <p>text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typetext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type</p>
-                                    <i><img src="images/test2.png" alt="#"/></i>
-                                    <h4>Fitter Found</h4>
-                                    <span>Industry's standard </span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                     <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                     <span class="sr-only">Next</span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      
       <!-- end customers -->
       <!--  footer -->
       <footer>

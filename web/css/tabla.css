@@ -10,12 +10,16 @@ body{
 }
 
 #main-container{
-	margin: 150px auto;
-	width: 600px;
+	
+	  width: 100px;
+          position: absolute;
+           margin-left: 30 px;
+
 }
 
 table{
-	background-color: white;
+	 margin: 0 auto;
+        background-color: white;
 	text-align: left;
 	border-collapse: collapse;
 	width: 100%;
